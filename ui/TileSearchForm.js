@@ -39,11 +39,17 @@ const TileSearchForm = (props) => {
           onChange={onCodeChange}
           placeholder="Tile"
           name="code"
+          className="pt-4 mx-0 sm:mx-4 px-1 sm:px-4"
         />
-        <select name="ct-num" onChange={onCtNumChange} value={ctNum}>
+        <select
+          name="ct-num"
+          className="pt-4 mx-0 sm:mx-4 px-1 sm:px-4"
+          onChange={onCtNumChange}
+          value={ctNum}
+        >
           {options}
         </select>
-        <button>Search</button>
+        <button className="pt-4 mx-0 sm:mx-4 px-1 sm:px-4">Search</button>
       </form>
     </div>
   );
