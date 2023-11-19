@@ -3,6 +3,7 @@ import TileSearchForm from "@/ui/TileSearchForm";
 import Loading from "@/ui/Loading";
 import Error from "@/ui/Error";
 import Tile from "@/ui/Tile";
+import PlugAndCredits from "@/ui/PlugAndCredits";
 
 const Home = () => {
   const [tileData, changeTileData] = useState({ error: false, tile: null });
@@ -47,6 +48,7 @@ const Home = () => {
       ) : (
         <></>
       )}
+      <PlugAndCredits />
     </div>
   );
 };

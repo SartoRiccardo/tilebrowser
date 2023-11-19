@@ -128,3 +128,14 @@ button {
   background-color: #00dfff;
   border: 7px solid #0063a9;
 }
+
+footer {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+footer p {
+  font-family: sans-serif;
+  -webkit-text-stroke: 0;
+  color: black;
+}
