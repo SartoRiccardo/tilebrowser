@@ -139,7 +139,7 @@ export const IMG_MAPS = {
 export const IMG_TOWERS = {
   Quincy:
     "https://cdn.discordapp.com/attachments/1164868153571029073/1175783023153778709/QuincyPortrait.webp",
-  Gwendolyn:
+  Gwendolin:
     "https://cdn.discordapp.com/attachments/1164868153571029073/1175783020742054008/GwendolinPortrait.webp",
   ObynGreenfoot:
     "https://cdn.discordapp.com/attachments/1164868153571029073/1175783022554001438/ObynGreenFootPortrait.webp",
