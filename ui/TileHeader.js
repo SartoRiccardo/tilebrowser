@@ -43,7 +43,7 @@ const TileHeader = ({
           </p>
         </div>
       </div>
-      <div className="challenge-type-container w-[80%] mx-auto py-4 my-8 test flex justify-center">
+      <div className="challenge-type-container sm:w-[80%] mx-auto py-4 my-8 test flex justify-center">
         {challengeImage}
         <div className="flex">
           <p className="self-center text-center text-2xl my-0">

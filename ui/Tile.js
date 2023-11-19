@@ -35,13 +35,14 @@ const Tile = ({ data }) => {
         ctNum={data.EventNumber}
         code={data.Code}
       />
-      <div>
+      <div className="specs-container flex flex-wrap sm:flex-nowrap sm:w-[80%] mx-auto p-4 sm:p-8">
         <Map
           map={data.GameData.selectedMap}
           startRound={dcModel.startRules.round}
           endRound={endRound}
+          className="sm:w-[25%]"
         />
-        <TowerList>
+        <TowerList className="sm:w-[75%]">
           {allowedTowers.map((twr) => (
             <Tower key={twr.tower} name={twr.tower} max={twr.max} />
           ))}

@@ -44,3 +44,56 @@ button {
   background-color: #007bd8;
   border: 7px solid #003958;
 }
+
+.specs-container {
+  background-color: #5f4b3c;
+  border: 7px solid #7b6550;
+  border-radius: 0.5rem;
+}
+
+.tower-list-container {
+  background-color: #4e3b2d;
+}
+
+.primary {
+  background-image: linear-gradient(#8fd7f4, #00a2eb);
+  border: 7px solid #00a2eb;
+}
+
+.military {
+  background-image: linear-gradient(#7ef780, #008800);
+  border: 7px solid #008800;
+}
+
+.magic {
+  background-image: linear-gradient(#c78afe, #8c00fc);
+  border: 7px solid #8c00fc;
+}
+
+.support {
+  background-image: linear-gradient(#fbbd66, #fa8100);
+  border: 7px solid #fa8100;
+}
+
+.military img {
+  width: 100%;
+}
+
+.max-amount {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background-color: #00dfff;
+  border: 7px solid #0063a9;
+  border-radius: 9999px;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.max-amount p {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
