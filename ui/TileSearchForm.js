@@ -29,19 +29,21 @@ const TileSearchForm = (props) => {
     );
 
   return (
-    <form onSubmit={onSubmit}>
-      <input
-        type="text"
-        value={code}
-        onChange={onCodeChange}
-        placeholder="Tile Code"
-        name="code"
-      />
-      <select name="ct-num" onChange={onCtNumChange} value={ctNum}>
-        {options}
-      </select>
-      <button>Search</button>
-    </form>
+    <div className="flex justify-center">
+      <form onSubmit={onSubmit}>
+        <input
+          type="text"
+          value={code}
+          onChange={onCodeChange}
+          placeholder="Tile"
+          name="code"
+        />
+        <select name="ct-num" onChange={onCtNumChange} value={ctNum}>
+          {options}
+        </select>
+        <button>Search</button>
+      </form>
+    </div>
   );
 };
 

@@ -35,7 +35,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div id="root" className={`container mx-auto my-10`}>
       <TileSearchForm onSubmit={tileSearch} />
       {isLoading ? (
         <Loading />
@@ -46,7 +46,7 @@ const Home = () => {
       ) : (
         <></>
       )}
-    </>
+    </div>
   );
 };
 

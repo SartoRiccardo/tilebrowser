@@ -1,3 +1,32 @@
-@tailwind base;
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-image: url("https://btd6leaderboards.netlify.app/PowersPatternBg.png");
+  background-color: #0077d9;
+  font-family: var(--font-kalam);
+  color: white;
+}
+
+#root {
+  border: 3px solid lightgreen;
+}
+
+form {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+form * {
+  margin: 0 0.5rem;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 1rem 0.5rem 0 0.5rem;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 2.5em;
+  text-align: center;
+}
