@@ -39,3 +39,8 @@ button {
   border: 7px solid #0063a9;
   border-radius: 0.5rem;
 }
+
+.challenge-type-container {
+  background-color: #007bd8;
+  border: 7px solid #003958;
+}
