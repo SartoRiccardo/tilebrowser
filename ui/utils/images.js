@@ -32,7 +32,7 @@ export const IMG_MAPS = {
     "https://media.discordapp.net/attachments/770247322633633792/1091540873419960420/towncenter.png",
   Skates:
     "https://media.discordapp.net/attachments/770247322633633792/1091540861252292668/skates.png",
-  MonkeyMeadow:
+  Tutorial:
     "https://media.discordapp.net/attachments/770247322633633792/1091540815098155069/monkey_meadow.png",
   EndOfTheRoad:
     "https://media.discordapp.net/attachments/770247322633633792/1091540759985004636/endoftheroad.png",
