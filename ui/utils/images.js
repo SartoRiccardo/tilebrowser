@@ -56,7 +56,7 @@ export const IMG_MAPS = {
     "https://media.discordapp.net/attachments/770247322633633792/1091540813588217876/kartsndarts.png",
   FiringRange:
     "https://media.discordapp.net/attachments/770247322633633792/1091540786128109659/firingrange.png",
-  "Adora'sTemple":
+  AdorasTemple:
     "https://media.discordapp.net/attachments/770247322633633792/1091540736022937681/adorastemple.png",
   Downstream:
     "https://media.discordapp.net/attachments/770247322633633792/1091540761876627537/downstream.png",
@@ -94,7 +94,7 @@ export const IMG_MAPS = {
     "https://media.discordapp.net/attachments/770247322633633792/1091540813105860740/offthecoast.png",
   Peninsula:
     "https://media.discordapp.net/attachments/770247322633633792/1091540832605179914/penninsula.png",
-  "Pat'sPond":
+  PatsPond:
     "https://media.discordapp.net/attachments/770247322633633792/1091540832349339729/patspond.png",
   XFactor:
     "https://media.discordapp.net/attachments/770247322633633792/1091540873071829112/xfactor.png",
