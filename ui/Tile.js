@@ -28,7 +28,12 @@ const Tile = ({ data }) => {
   const selectableHero = dcModel.towers._items.find(
     (twr) => twr.tower === "ChosenPrimaryHero" && twr.max != 0
   );
-  if (selectableHero) allowedTowers.splice(0, 0, selectableHero);
+  if (selectableHero || allowedHeros.length > 1)
+    allowedTowers.splice(0, 0, {
+      tower: "ChosenPrimaryHero",
+      isHero: true,
+      max: 1,
+    });
 
   return (
     <>
@@ -49,7 +54,11 @@ const Tile = ({ data }) => {
         />
         <TowerList className="sm:w-[75%]">
           {allowedTowers.map((twr) => (
-            <Tower key={twr.tower} name={twr.tower} max={twr.max} />
+            <Tower
+              key={twr.tower}
+              name={twr.tower}
+              max={twr.isHero ? -1 : twr.max}
+            />
           ))}
         </TowerList>
       </div>
@@ -60,7 +69,11 @@ const Tile = ({ data }) => {
           </p>
           <TowerList className="">
             {restrictedHeros.map((twr) => (
-              <Tower key={twr.tower} name={twr.tower} max={twr.max} />
+              <Tower
+                key={twr.tower}
+                name={twr.tower}
+                max={twr.isHero ? -1 : twr.max}
+              />
             ))}
           </TowerList>
         </div>
