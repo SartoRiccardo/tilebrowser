@@ -30,7 +30,7 @@ const TileSearchForm = (props) => {
 
   return (
     <div className="flex justify-center">
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} className="py-8 text-1_5r sm:text-2r">
         <input
           type="text"
           value={code}

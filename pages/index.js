@@ -35,7 +35,8 @@ const Home = () => {
   };
 
   return (
-    <div id="root" className={`container mx-auto my-10`}>
+    <div id="root" className={`container mx-auto`}>
+      <h1 className="text-center text-5xl mb-0 pb-0">CT Tile Search</h1>
       <TileSearchForm onSubmit={tileSearch} />
       {isLoading ? (
         <Loading />

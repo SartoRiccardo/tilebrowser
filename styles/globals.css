@@ -6,16 +6,8 @@ body {
   background-image: url("https://btd6leaderboards.netlify.app/PowersPatternBg.png");
   background-color: #0077d9;
   font-family: var(--font-kalam);
+  -webkit-text-stroke: 2px black;
   color: white;
-}
-
-#root {
-  border: 3px solid lightgreen;
-}
-
-form {
-  padding: 2rem;
-  font-size: 2rem;
 }
 
 form * {
@@ -24,9 +16,26 @@ form * {
   font-family: inherit;
   padding: 1rem 0.5rem 0 0.5rem;
   text-align: center;
+  color: inherit;
 }
 
 input[type="text"] {
   width: 2.5em;
   text-align: center;
+  background-color: #67573d;
+  border: 7px solid #947f5d;
+  border-radius: 0.5rem;
+}
+
+form select {
+  background-color: #0063a9;
+  border: 7px solid #283593;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+button {
+  background-color: #00dfff;
+  border: 7px solid #0063a9;
+  border-radius: 0.5rem;
 }
