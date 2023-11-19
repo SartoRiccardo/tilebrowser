@@ -123,3 +123,8 @@ button {
   width: 100%;
   text-align: center;
 }
+
+.restriction-container {
+  background-color: #00dfff;
+  border: 7px solid #0063a9;
+}

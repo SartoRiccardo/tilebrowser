@@ -78,28 +78,31 @@ const Tile = ({ data }) => {
           </TowerList>
         </div>
       )}
-      <div>
-        <Restriction
-          name="Monkey Knowledge Disabled"
-          value={dcModel.disableMK}
-        />
-        <Restriction name="Selling Disabled" value={dcModel.disableSelling} />
-        <Restriction
-          name="Ceramic Health"
-          value={dcModel.bloonModifiers.healthMultipliers.bloons}
-        />
-        <Restriction
-          name="Bloon Speed"
-          value={dcModel.bloonModifiers.speedMultiplier}
-        />
-        <Restriction
-          name="MOAB Speed"
-          value={dcModel.bloonModifiers.moabSpeedMultiplier}
-        />
-        <Restriction
-          name="Regrow Rate"
-          value={dcModel.bloonModifiers.regrowRateMultiplier}
-        />
+      <div className="restriction-container sm:w-[80%] mx-auto my-10 py-5">
+        <ul>
+          <Restriction name="Starting Cash" value={dcModel.startRules.cash} />
+          <Restriction
+            name="Monkey Knowledge Disabled"
+            value={dcModel.disableMK}
+          />
+          <Restriction name="Selling Disabled" value={dcModel.disableSelling} />
+          <Restriction
+            name="Ceramic Health"
+            value={dcModel.bloonModifiers.healthMultipliers.bloons}
+          />
+          <Restriction
+            name="Bloon Speed"
+            value={dcModel.bloonModifiers.speedMultiplier}
+          />
+          <Restriction
+            name="MOAB Speed"
+            value={dcModel.bloonModifiers.moabSpeedMultiplier}
+          />
+          <Restriction
+            name="Regrow Rate"
+            value={dcModel.bloonModifiers.regrowRateMultiplier}
+          />
+        </ul>
       </div>
     </>
   );

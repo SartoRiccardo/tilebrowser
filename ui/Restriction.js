@@ -1,17 +1,22 @@
 export default ({ name, value }) => {
   if (value === 1) return null;
-  if (name == "Monkey Knowledge Disabled" && value) return null;
-  if (name == "Selling Disabled" && !value) return null;
+  if (name === "Monkey Knowledge Disabled" && value) return null;
+  if (name === "Selling Disabled" && !value) return null;
 
   return (
-    <div>
+    <li className="text-2xl">
       {typeof value === "boolean" ? (
         <>{name}</>
       ) : (
         <>
-          {name}: <b>{value}</b>
+          {name}:{" "}
+          <b>
+            {name === "Starting Cash"
+              ? `$${value}`
+              : `${Math.floor(value * 100)}%`}
+          </b>
         </>
       )}
-    </div>
+    </li>
   );
 };
