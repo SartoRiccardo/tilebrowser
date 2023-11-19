@@ -2,7 +2,7 @@ const PlugAndCredits = () => {
   return (
     <footer className="py-5">
       <h2 className="text-3xl text-center my-0">Credits</h2>
-      <p className="text-xl my-0">
+      <p className="text-sm sm:text-xl my-0">
         App built by{" "}
         <a target="_blank" href="https://github.com/SartoRiccardo/tilebrowser">
           Chime
@@ -12,7 +12,7 @@ const PlugAndCredits = () => {
       <br />
       <br />
       <h2 className="text-3xl text-center my-0">Other Resources</h2>
-      <p className="text-xl my-0">
+      <p className="text-sm sm:text-xl my-0">
         <a
           target="_blank"
           href="https://discord.com/api/oauth2/authorize?client_id=1088892665422151710&permissions=8&scope=bot"
@@ -27,12 +27,14 @@ const PlugAndCredits = () => {
         <a target="_blank" href="https://sciplypandora.github.io/map/">
           CT Map Visualizer
         </a>{" "}
+        <br />
         <br />{" "}
         <a target="_blank" href="https://data.ninjakiwi.com">
           NinjaKiwi Open Data API
         </a>{" "}
         (which this app does NOT use but it would be nice if it could make the
         jump)
+        <br />
         <br />
         <a
           target="_blank"
