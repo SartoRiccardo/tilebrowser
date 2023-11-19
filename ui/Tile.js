@@ -50,7 +50,16 @@ const Tile = ({ data }) => {
         </TowerList>
       </div>
       {restrictedHeros.length > 0 && allowedHeros.length > 1 && (
-        <RestrictedHeros heros={restrictedHeros} />
+        <div className="restricted-hero-container sm:w-[80%] mx-auto my-10 py-5">
+          <p className="self-center text-center text-4xl my-0">
+            Restricted Heroes
+          </p>
+          <TowerList className="">
+            {restrictedHeros.map((twr) => (
+              <Tower key={twr.tower} name={twr.tower} max={twr.max} />
+            ))}
+          </TowerList>
+        </div>
       )}
       <div>
         <Restriction

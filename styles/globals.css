@@ -102,3 +102,15 @@ button {
   margin: 0;
   padding: 0;
 }
+
+.restricted-hero-container {
+  background-color: #ef5350;
+  border: 7px solid #b71c1c;
+  border-radius: 0.5rem;
+}
+
+.restricted-hero-container .tower-list-container {
+  background-color: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+}
