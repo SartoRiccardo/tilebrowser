@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import Head from "next/head";
 import { Luckiest_Guy } from "next/font/google";
 
 const luckiestGuy = Luckiest_Guy({
@@ -8,8 +9,13 @@ const luckiestGuy = Luckiest_Guy({
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className={luckiestGuy.className}>
-      <Component {...pageProps} />
-    </div>
+    <>
+      <Head>
+        <title>Tile Browser</title>
+      </Head>
+      <div className={luckiestGuy.className}>
+        <Component {...pageProps} />
+      </div>
+    </>
   );
 }
