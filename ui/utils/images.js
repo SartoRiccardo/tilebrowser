@@ -1,4 +1,4 @@
-const IMG_MAPS = {
+export const IMG_MAPS = {
   Logs: "https://media.discordapp.net/attachments/770247322633633792/1091540813961506876/logs.png",
   Cubism:
     "https://media.discordapp.net/attachments/770247322633633792/1091540761138429992/cubism.png",
@@ -136,7 +136,7 @@ const IMG_MAPS = {
     "https://media.discordapp.net/attachments/1120685628812693504/1164110344344584322/latest.png",
 };
 
-const IMG_TOWERS = {
+export const IMG_TOWERS = {
   Quincy: "",
   Gwendolyn: "",
   ObynGreenfoot: "",
@@ -176,7 +176,7 @@ const IMG_TOWERS = {
   BeastHandler: "",
 };
 
-const IMG_MODIFIERS = {
+export const IMG_MODIFIERS = {
   "Monkey Knowledge Disabled": "",
   "Selling Disabled": "",
   "Ceramic Health": "",
@@ -185,7 +185,7 @@ const IMG_MODIFIERS = {
   "Regrow Rate": "",
 };
 
-const IMG_RELICS = {
+export const IMG_RELICS = {
   Abilitized:
     "https://cdn.discordapp.com/attachments/924255725390270474/1120404239013920789/Abilitized.png",
   AirAndSea:
@@ -278,9 +278,10 @@ const IMG_RELICS = {
     "https://cdn.discordapp.com/attachments/924255725390270474/1120404356928385175/Thrive.png",
 };
 
-const IMG_BANNER = "https://cdn.discordapp.com/emojis/1119000355133464637.png";
+export const IMG_BANNER =
+  "https://cdn.discordapp.com/emojis/1119000355133464637.png";
 
-const IMG_GAMEMODES = {
+export const IMG_GAMEMODES = {
   2: "https://cdn.discordapp.com/emojis/1049236764918808666.png",
   8: "https://cdn.discordapp.com/emojis/1049069211881836614.png",
   9: "https://cdn.discordapp.com/emojis/1049069268060344400.png",

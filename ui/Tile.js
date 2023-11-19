@@ -32,6 +32,8 @@ const Tile = ({ data }) => {
         difficulty={data.GameData.selectedDifficulty}
         gamemode={data.GameData.selectedMode}
         chalType={chalType}
+        ctNum={data.EventNumber}
+        code={data.Code}
       />
       <div>
         <Map
