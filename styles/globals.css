@@ -75,6 +75,11 @@ button {
   border: 7px solid #fa8100;
 }
 
+.hero {
+  background-image: linear-gradient(#fef800, #ffc000);
+  border: 7px solid #ffc000;
+}
+
 .military img {
   width: 100%;
 }

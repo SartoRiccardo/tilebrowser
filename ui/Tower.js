@@ -30,7 +30,9 @@ const Tower = ({ name, max }) => {
   return (
     <div className="py-3 px-2 sm:px-3 relative">
       <div
-        className={`${towerTypes[name]} flex self-center p-3 rounded-2xl h-[7rem] sm:h-[8rem] w-[5.5rem] sm:w-[6.5rem]`}
+        className={`${
+          towerTypes[name] || "hero"
+        } flex self-center p-3 rounded-2xl h-[7rem] sm:h-[8rem] w-[5.5rem] sm:w-[6.5rem]`}
       >
         <img src={IMG_TOWERS[name]} className="self-center w-[100%]" />
         {max > 0 && (

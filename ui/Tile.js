@@ -21,9 +21,10 @@ const Tile = ({ data }) => {
   const allowedHeros = dcModel.towers._items.filter(
     (twr) => twr.isHero && twr.max != 0 && twr.tower != "ChosenPrimaryHero"
   );
-  const allowedTowers = dcModel.towers._items.filter(
+  let allowedTowers = dcModel.towers._items.filter(
     (twr) => !twr.isHero && twr.max != 0
   );
+  if (allowedHeros.length == 1) allowedTowers.splice(0, 0, allowedHeros[0]);
 
   return (
     <>
