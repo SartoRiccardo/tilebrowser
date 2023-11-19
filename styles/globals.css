@@ -114,3 +114,12 @@ button {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+.selectable {
+  color: lightgreen;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}

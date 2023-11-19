@@ -40,6 +40,10 @@ const Tower = ({ name, max }) => {
             <p>{max}</p>
           </div>
         )}
+
+        {name == "ChosenPrimaryHero" && (
+          <p className="selectable text-2xl">Selectable</p>
+        )}
       </div>
     </div>
   );

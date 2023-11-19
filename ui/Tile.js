@@ -16,15 +16,19 @@ const Tile = ({ data }) => {
   }
 
   const restrictedHeros = dcModel.towers._items.filter(
-    (twr) => twr.isHero && twr.max == 0 && twr.tower != "ChosenPrimaryHero"
+    (twr) => twr.isHero && twr.max === 0 && twr.tower !== "ChosenPrimaryHero"
   );
   const allowedHeros = dcModel.towers._items.filter(
-    (twr) => twr.isHero && twr.max != 0 && twr.tower != "ChosenPrimaryHero"
+    (twr) => twr.isHero && twr.max !== 0 && twr.tower !== "ChosenPrimaryHero"
   );
   let allowedTowers = dcModel.towers._items.filter(
-    (twr) => !twr.isHero && twr.max != 0
+    (twr) => !twr.isHero && twr.max !== 0
   );
   if (allowedHeros.length == 1) allowedTowers.splice(0, 0, allowedHeros[0]);
+  const selectableHero = dcModel.towers._items.find(
+    (twr) => twr.tower === "ChosenPrimaryHero" && twr.max != 0
+  );
+  if (selectableHero) allowedTowers.splice(0, 0, selectableHero);
 
   return (
     <>

@@ -210,6 +210,8 @@ export const IMG_TOWERS = {
     "https://cdn.discordapp.com/attachments/1164868153571029073/1175783073967779900/000-EngineerMonkey.webp",
   BeastHandler:
     "https://cdn.discordapp.com/attachments/1164868153571029073/1175783074336874546/000-BeastHandler.webp",
+  ChosenPrimaryHero:
+    "https://media.discordapp.net/attachments/1164868153571029073/1175803873647149096/selectable.png",
 };
 
 export const IMG_MODIFIERS = {
