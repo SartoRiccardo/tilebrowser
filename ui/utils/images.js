@@ -138,78 +138,78 @@ export const IMG_MAPS = {
 
 export const IMG_TOWERS = {
   Quincy:
-    "https://static.wikia.nocookie.net/b__/images/a/a8/QuincyPortrait.png/revision/latest?cb=20190612021048&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783023153778709/QuincyPortrait.webp",
   Gwendolyn:
-    "https://static.wikia.nocookie.net/b__/images/b/b9/GwendolinPortrait.png/revision/latest?cb=20190612022457&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783020742054008/GwendolinPortrait.webp",
   ObynGreenfoot:
-    "https://static.wikia.nocookie.net/b__/images/7/72/ObynGreenFootPortrait.png/revision/latest?cb=20190612023839&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783022554001438/ObynGreenFootPortrait.webp",
   StrikerJones:
-    "https://static.wikia.nocookie.net/b__/images/b/b4/StrikerJonesPortrait.png/revision/latest?cb=20190612023137&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783021404758116/StrikerJonesPortrait.webp",
   Geraldo:
-    "https://static.wikia.nocookie.net/b__/images/9/99/GeraldoPortrait.png/revision/latest?cb=20220413053005&path-prefix=bloons",
-  Psi: "https://static.wikia.nocookie.net/b__/images/9/96/PsiPortrait.png/revision/latest?cb=20230322222255&path-prefix=bloons",
+    "https://media.discordapp.net/attachments/1164868153571029073/1175782947064905839/GeraldoPortrait.webp",
+  Psi: "https://cdn.discordapp.com/attachments/1164868153571029073/1175782948155424800/PsiPortrait.webp",
   Adora:
-    "https://static.wikia.nocookie.net/b__/images/2/2a/AdoraPortrait.png/revision/latest?cb=20191213222754&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783074705977424/AdoraPortrait.webp",
   AdmiralBrickell:
-    "https://static.wikia.nocookie.net/b__/images/4/4d/AdmiralBrickellPortrait.png/revision/latest?cb=20200602105905&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782950328094760/AdmiralBrickellPortrait.webp",
   Sauda:
-    "https://static.wikia.nocookie.net/b__/images/e/eb/SaudaPortrait.png/revision/latest?cb=20210311044157&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782948784590908/SaudaPortrait.webp",
   CaptainChurchill:
-    "https://static.wikia.nocookie.net/b__/images/5/5a/CaptainChurchillPortrait.png/revision/latest?cb=20190612024733&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783019466993704/CaptainChurchillPortrait.webp",
   Etienne:
-    "https://static.wikia.nocookie.net/b__/images/8/82/EtiennePortrait.png/revision/latest?cb=20200903041051&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782949455679562/EtiennePortrait.webp",
   Ezili:
-    "https://static.wikia.nocookie.net/b__/images/d/d3/EziliPortrait.png/revision/latest?cb=20190612025715&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783022025511012/EziliPortrait.webp",
   Benjamin:
-    "https://static.wikia.nocookie.net/b__/images/a/af/BenjaminPortrait.png/revision/latest?cb=20190612025211&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783020049997864/BenjaminPortrait.webp",
   PatFusty:
-    "https://static.wikia.nocookie.net/b__/images/7/76/PatFustyPortrait.png/revision/latest?cb=20190612030015&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783023560634388/PatFustyPortrait.webp",
   HeliPilot:
-    "https://static.wikia.nocookie.net/b__/images/e/e7/BTD6_Heli_Pilot.png/revision/latest?cb=20180616145943&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782987581890630/000-HeliPilot.webp",
   MortarMonkey:
-    "https://static.wikia.nocookie.net/b__/images/d/d0/Mortar_Monkey_BTD6.png/revision/latest?cb=20181119022518&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783069194661998/000-MortarMonkey-1.webp",
   WizardMonkey:
-    "https://static.wikia.nocookie.net/b__/images/9/99/000-WizardMonkey.png/revision/latest?cb=20190522015102&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783070406815814/000-WizardMonkey.webp",
   NinjaMonkey:
-    "https://static.wikia.nocookie.net/b__/images/3/33/BTD6_Ninja_Monkey.png/revision/latest?cb=20180616150243&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782986566868993/000-NinjaMonkey.webp",
   BananaFarm:
-    "https://static.wikia.nocookie.net/b__/images/8/84/BTD6_Banana_Farm.png/revision/latest?cb=20180616145755&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782988181688360/000-BananaFarm.webp",
   SpikeFactory:
-    "https://static.wikia.nocookie.net/b__/images/d/da/BTD6_Spike_Factory.png/revision/latest?cb=20180616150351&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783072080343081/000-SpikeFactory.webp",
   MonkeyVillage:
-    "https://static.wikia.nocookie.net/b__/images/2/23/BTD6_Monkey_Village.png/revision/latest?cb=20180616150225&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783073137303632/000-MonkeyVillage.webp",
   DartMonkey:
-    "https://static.wikia.nocookie.net/b__/images/e/e2/Btd6monkey.png/revision/latest?cb=20180426113758&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783072617201765/000-DartMonkey.webp",
   BoomerangMonkey:
-    "https://static.wikia.nocookie.net/b__/images/5/51/BTD6_Boomerang_Monkey.png/revision/latest?cb=20180616145853&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782949984149544/000-BoomerangMonkey.webp",
   BombShooter:
-    "https://static.wikia.nocookie.net/b__/images/e/e1/Bomb_Shooter.png/revision/latest?cb=20180616145810&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782949073977375/000-BombShooter.webp",
   TackShooter:
-    "https://static.wikia.nocookie.net/b__/images/1/15/BTD6_Tack_Shooter.png/revision/latest?cb=20180616150423&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782948457422908/000-TackShooter.webp",
   IceMonkey:
-    "https://static.wikia.nocookie.net/b__/images/f/fb/Ice_Monkey.png/revision/latest?cb=20180616145956&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782947786346516/000-IceMonkey.webp",
   GlueGunner:
-    "https://static.wikia.nocookie.net/b__/images/1/1f/BTD6_Glue_Gunner.png/revision/latest?cb=20180616145926&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782947400458361/000-GlueGunner.webp",
   SniperMonkey:
-    "https://static.wikia.nocookie.net/b__/images/f/ff/BTD6_Sniper_Monkey.png/revision/latest?cb=20180616150336&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783071472156723/000-SniperMonkey.webp",
   MonkeySub:
-    "https://static.wikia.nocookie.net/b__/images/e/e9/BTD6_Monkey_Sub.png/revision/latest?cb=20180616150211&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782985702842388/000-MonkeySub.webp",
   MonkeyBuccaneer:
-    "https://static.wikia.nocookie.net/b__/images/8/87/BTD6_Monkey_Buccaneer.png/revision/latest?cb=20180616150146&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782985971273758/000-MonkeyBuccaneer.webp",
   MonkeyAce:
-    "https://static.wikia.nocookie.net/b__/images/0/04/BTD6_Monkey_Ace.png/revision/latest?cb=20180616150015&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782986881437726/000-MonkeyAce.webp",
   DartlingGunner:
-    "https://static.wikia.nocookie.net/b__/images/f/f3/000-DartlingGunner.png/revision/latest?cb=20201203034034&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783069697974402/000-DartlingGunner.webp",
   SuperMonkey:
-    "https://static.wikia.nocookie.net/b__/images/9/9c/BTD6_Super_Monkey.png/revision/latest?cb=20180616150409&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782986243919974/000-SuperMonkey.webp",
   Alchemist:
-    "https://static.wikia.nocookie.net/b__/images/6/65/Monkey_Alchemist.png/revision/latest?cb=20220804022938&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782987187638423/Alchemist_Icon.webp",
   Druid:
-    "https://static.wikia.nocookie.net/b__/images/7/79/Druid_Monkey.png/revision/latest?cb=20180616151044&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175782987892265031/Druid_Icon.webp",
   EngineerMonkey:
-    "https://static.wikia.nocookie.net/b__/images/9/98/000-EngineerMonkey.png/revision/latest?cb=20190921173225&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783073967779900/000-EngineerMonkey.webp",
   BeastHandler:
-    "https://static.wikia.nocookie.net/b__/images/5/54/000-BeastHandler.png/revision/latest?cb=20230404070911&path-prefix=bloons",
+    "https://cdn.discordapp.com/attachments/1164868153571029073/1175783074336874546/000-BeastHandler.webp",
 };
 
 export const IMG_MODIFIERS = {
