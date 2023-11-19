@@ -137,43 +137,79 @@ export const IMG_MAPS = {
 };
 
 export const IMG_TOWERS = {
-  Quincy: "",
-  Gwendolyn: "",
-  ObynGreenfoot: "",
-  StrikerJones: "",
-  Geraldo: "",
-  Psi: "",
-  Adora: "",
-  AdmiralBrickell: "",
-  Sauda: "",
-  CaptainChurchill: "",
-  Etienne: "",
-  Ezili: "",
-  Benjamin: "",
-  PatFusty: "",
-  HeliPilot: "",
-  MortarMonkey: "",
-  WizardMonkey: "",
-  NinjaMonkey: "",
-  BananaFarm: "",
-  SpikeFactory: "",
-  MonkeyVillage: "",
-  DartMonkey: "",
-  BoomerangMonkey: "",
-  BombShooter: "",
-  TackShooter: "",
-  IceMonkey: "",
-  GlueGunner: "",
-  SniperMonkey: "",
-  MonkeySub: "",
-  MonkeyBuccaneer: "",
-  MonkeyAce: "",
-  DartlingGunner: "",
-  SuperMonkey: "",
-  Alchemist: "",
-  Druid: "",
-  EngineerMonkey: "",
-  BeastHandler: "",
+  Quincy:
+    "https://static.wikia.nocookie.net/b__/images/a/a8/QuincyPortrait.png/revision/latest?cb=20190612021048&path-prefix=bloons",
+  Gwendolyn:
+    "https://static.wikia.nocookie.net/b__/images/b/b9/GwendolinPortrait.png/revision/latest?cb=20190612022457&path-prefix=bloons",
+  ObynGreenfoot:
+    "https://static.wikia.nocookie.net/b__/images/7/72/ObynGreenFootPortrait.png/revision/latest?cb=20190612023839&path-prefix=bloons",
+  StrikerJones:
+    "https://static.wikia.nocookie.net/b__/images/b/b4/StrikerJonesPortrait.png/revision/latest?cb=20190612023137&path-prefix=bloons",
+  Geraldo:
+    "https://static.wikia.nocookie.net/b__/images/9/99/GeraldoPortrait.png/revision/latest?cb=20220413053005&path-prefix=bloons",
+  Psi: "https://static.wikia.nocookie.net/b__/images/9/96/PsiPortrait.png/revision/latest?cb=20230322222255&path-prefix=bloons",
+  Adora:
+    "https://static.wikia.nocookie.net/b__/images/2/2a/AdoraPortrait.png/revision/latest?cb=20191213222754&path-prefix=bloons",
+  AdmiralBrickell:
+    "https://static.wikia.nocookie.net/b__/images/4/4d/AdmiralBrickellPortrait.png/revision/latest?cb=20200602105905&path-prefix=bloons",
+  Sauda:
+    "https://static.wikia.nocookie.net/b__/images/e/eb/SaudaPortrait.png/revision/latest?cb=20210311044157&path-prefix=bloons",
+  CaptainChurchill:
+    "https://static.wikia.nocookie.net/b__/images/5/5a/CaptainChurchillPortrait.png/revision/latest?cb=20190612024733&path-prefix=bloons",
+  Etienne:
+    "https://static.wikia.nocookie.net/b__/images/8/82/EtiennePortrait.png/revision/latest?cb=20200903041051&path-prefix=bloons",
+  Ezili:
+    "https://static.wikia.nocookie.net/b__/images/d/d3/EziliPortrait.png/revision/latest?cb=20190612025715&path-prefix=bloons",
+  Benjamin:
+    "https://static.wikia.nocookie.net/b__/images/a/af/BenjaminPortrait.png/revision/latest?cb=20190612025211&path-prefix=bloons",
+  PatFusty:
+    "https://static.wikia.nocookie.net/b__/images/7/76/PatFustyPortrait.png/revision/latest?cb=20190612030015&path-prefix=bloons",
+  HeliPilot:
+    "https://static.wikia.nocookie.net/b__/images/e/e7/BTD6_Heli_Pilot.png/revision/latest?cb=20180616145943&path-prefix=bloons",
+  MortarMonkey:
+    "https://static.wikia.nocookie.net/b__/images/d/d0/Mortar_Monkey_BTD6.png/revision/latest?cb=20181119022518&path-prefix=bloons",
+  WizardMonkey:
+    "https://static.wikia.nocookie.net/b__/images/9/99/000-WizardMonkey.png/revision/latest?cb=20190522015102&path-prefix=bloons",
+  NinjaMonkey:
+    "https://static.wikia.nocookie.net/b__/images/3/33/BTD6_Ninja_Monkey.png/revision/latest?cb=20180616150243&path-prefix=bloons",
+  BananaFarm:
+    "https://static.wikia.nocookie.net/b__/images/8/84/BTD6_Banana_Farm.png/revision/latest?cb=20180616145755&path-prefix=bloons",
+  SpikeFactory:
+    "https://static.wikia.nocookie.net/b__/images/d/da/BTD6_Spike_Factory.png/revision/latest?cb=20180616150351&path-prefix=bloons",
+  MonkeyVillage:
+    "https://static.wikia.nocookie.net/b__/images/2/23/BTD6_Monkey_Village.png/revision/latest?cb=20180616150225&path-prefix=bloons",
+  DartMonkey:
+    "https://static.wikia.nocookie.net/b__/images/e/e2/Btd6monkey.png/revision/latest?cb=20180426113758&path-prefix=bloons",
+  BoomerangMonkey:
+    "https://static.wikia.nocookie.net/b__/images/5/51/BTD6_Boomerang_Monkey.png/revision/latest?cb=20180616145853&path-prefix=bloons",
+  BombShooter:
+    "https://static.wikia.nocookie.net/b__/images/e/e1/Bomb_Shooter.png/revision/latest?cb=20180616145810&path-prefix=bloons",
+  TackShooter:
+    "https://static.wikia.nocookie.net/b__/images/1/15/BTD6_Tack_Shooter.png/revision/latest?cb=20180616150423&path-prefix=bloons",
+  IceMonkey:
+    "https://static.wikia.nocookie.net/b__/images/f/fb/Ice_Monkey.png/revision/latest?cb=20180616145956&path-prefix=bloons",
+  GlueGunner:
+    "https://static.wikia.nocookie.net/b__/images/1/1f/BTD6_Glue_Gunner.png/revision/latest?cb=20180616145926&path-prefix=bloons",
+  SniperMonkey:
+    "https://static.wikia.nocookie.net/b__/images/f/ff/BTD6_Sniper_Monkey.png/revision/latest?cb=20180616150336&path-prefix=bloons",
+  MonkeySub:
+    "https://static.wikia.nocookie.net/b__/images/e/e9/BTD6_Monkey_Sub.png/revision/latest?cb=20180616150211&path-prefix=bloons",
+  MonkeyBuccaneer:
+    "https://static.wikia.nocookie.net/b__/images/8/87/BTD6_Monkey_Buccaneer.png/revision/latest?cb=20180616150146&path-prefix=bloons",
+  MonkeyAce:
+    "https://static.wikia.nocookie.net/b__/images/0/04/BTD6_Monkey_Ace.png/revision/latest?cb=20180616150015&path-prefix=bloons",
+  DartlingGunner:
+    "https://static.wikia.nocookie.net/b__/images/f/f3/000-DartlingGunner.png/revision/latest?cb=20201203034034&path-prefix=bloons",
+  SuperMonkey:
+    "https://static.wikia.nocookie.net/b__/images/9/9c/BTD6_Super_Monkey.png/revision/latest?cb=20180616150409&path-prefix=bloons",
+  Alchemist:
+    "https://static.wikia.nocookie.net/b__/images/6/65/Monkey_Alchemist.png/revision/latest?cb=20220804022938&path-prefix=bloons",
+  Druid:
+    "https://static.wikia.nocookie.net/b__/images/7/79/Druid_Monkey.png/revision/latest?cb=20180616151044&path-prefix=bloons",
+  EngineerMonkey:
+    "https://static.wikia.nocookie.net/b__/images/9/98/000-EngineerMonkey.png/revision/latest?cb=20190921173225&path-prefix=bloons",
+  BeastHandler:
+    "https://static.wikia.nocookie.net/b__/images/5/54/000-BeastHandler.png/revision/latest?cb=20230404070911&path-prefix=bloons",
 };
 
 export const IMG_MODIFIERS = {
