@@ -34,7 +34,11 @@ const Tower = ({ name, max }) => {
           towerTypes[name] || "hero"
         } flex self-center p-3 rounded-2xl h-[6rem] sm:h-[8rem] w-[4.5rem] sm:w-[6.5rem]`}
       >
-        <img src={IMG_TOWERS[name]} className="self-center w-[100%]" />
+        <img
+          src={IMG_TOWERS[name]}
+          className="self-center w-[100%]"
+          alt={name}
+        />
         {max > 0 && (
           <div className="max-amount text-3xl">
             <p>{max}</p>
