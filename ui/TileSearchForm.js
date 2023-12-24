@@ -3,7 +3,10 @@ import { useState } from "react";
 const TileSearchForm = (props) => {
   const CT34_START = new Date(1700604000000);
   const EVENTS =
-    34 + Math.floor((new Date() - CT34_START) / (14 * 24 * 3600 * 1000)) + 1; // + 1 cause they get datamined
+    34 +
+    Math.floor(
+      (new Date() - CT34_START + 7 * 24 * 3600 * 1000) / (14 * 24 * 3600 * 1000)
+    ); // + 7 * 24 * 3600 * 1000 cause they get datamined
 
   const [code, changeCode] = useState("");
   const [ctNum, changeCtNum] = useState(EVENTS);
